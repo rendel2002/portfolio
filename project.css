@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 6px;
+  }
+
+  /* content about project*/
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 82.9vh;
+    gap: 15px;
+  }
+
+  .card {
+    flex: 1;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .image {
+    max-width: 20%;
+    padding-left: 40%;
+    padding-top: 10%;
+
+
+  }
+
+  .content {
+    padding: 20px;
+    text-align: center;
+  }
+
+  h3 {
+    margin-top: 0;
+  }
+  .social-media a {
+    margin: 0 1px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+.fa-instagram {
+  background: #db3a2e;
+  color: white;
+}  
+  .fa {
+    padding: 5px;
+    font-size: 0px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+
+  }
+  

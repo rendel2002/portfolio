@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 7px;
+  }
+
+/* about content */
+
+
+  .content-about {
+    text-align: center;
+  }
+  .content-about img {
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 10px;
+
+  }
+  
+  .school-info img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+
+  } 
+  .content-about h1 {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+  }
+
+
+  .media a {
+    margin: 0 10px;
+  }
+  
+  .media img {
+    width: 24px;
+    height: 24px;
+    
+  }
+  .social-media a {
+    margin: 0 1px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+.fa-instagram {
+  background: #db3a2e;
+  color: white;
+}  
+  .fa {
+    padding: 5px;
+    font-size: 0px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+
+  }
+  
